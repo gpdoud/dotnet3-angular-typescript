@@ -59,6 +59,12 @@
     "ts/calcarea.ts",
     "ts/aclass.ts",
     "ts/user.class.ts",
-    "ts/user-list.class.ts"
+    "ts/user-list.class.ts",
+    "ts/foobar.class.ts",
+    "ts/blackjack.class.ts",
+    "ts/bj-card.class.ts",
+    "ts/bowling.class.ts","ts/frame.class.ts", "ts/game.class.ts",
+    "ts/Account.class.ts", "ts/Banking.class.ts", "ts/Savings.class.ts",
+    "ts/user.service.ts", "ts/user-list.ts"
   ]
 }

@@ -1,0 +1,6 @@
+<input [(ngModel)]="message" type="text">
+<button (click)="log()">Console Log Message</button>
+
+<button (click)="toggle()">Toggle</button>
+<p *ngIf="redOrBlue == 'red'">This is the red text</p>
+<p *ngIf="redOrBlue == 'blue'">This is the blue text</p>
