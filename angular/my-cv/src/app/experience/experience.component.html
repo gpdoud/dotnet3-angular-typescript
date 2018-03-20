@@ -1,0 +1,10 @@
+<div>
+  <h1>Experience</h1>
+  <div *ngFor="let job of jobs">
+    <h4>{{ job.title }}<br />{{ job.company }}</h4>
+    <p>{{ job.description }}</p>
+    <ul>
+      <li *ngFor="let tech of job.technologies">{{ tech }}</li>
+    </ul>
+  </div>
+</div>
